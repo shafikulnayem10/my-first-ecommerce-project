@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= device width , initial-scale=1.0">
+    <meta name="viewport" content="width= this is  a E-Commerce Project, initial-scale=1.0"/>
+    <title>My E-Commerce Project</title>
+     <!-- fontawsomecdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+   <!-- navbar starts here -->
+   <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+   <nav id="menu" class="hidden">
+   
+    <ul class="nav-upper flex-space-around">
+        <li class="nav_list">
+            <a href="index.html"class="nav_link">HOME</a>
+        </li>
+        <li class="nav_list">
+            <a href="register.html"class="nav_link">REGISTER</a>
+        </li>
+        <li class="nav_list">
+            <a href="login.html"class="nav_link">LOGIN</a>
+        </li>
+        <li class="nav_list">
+            <a href="index.html"class="nav_link">LOGOUT</a>
+        </li>
+        <li class="nav_list">
+            <a href="contact.html"class="nav_link">CONTACT</a>
+        </li>
+        <li class="nav_list">
+            <a href="profile.html"class="nav_link">
+                <img  class="profile-icon"  src="myfather'spic.jpg" alt="profile icon">
+            </a>
+        </li>
+</ul>
+    <ul class="nav-lower flex-space-around">
+        <li class="nav_list">
+        <a href="index.html" class="nav_link nav_brand">
+        CHUNNU BANIYATI STORE
+        </a>
+        </li>
+        <li class="nav_list">
+            <a href="card.html" class="nav_brand nav_link ">
+            <span><i class="fa-solid fa-card-shopping"></i></span>
+            Card  Products- $120.50
+            </a>
+            </li>
+    
+    </ul>
+   </nav>
+
+
+   <!-- navbar ends here -->
+   <main>
+    <section class="contact-section">
+      <h2 class="section-title text-center">Contact Us</h2>
+      <div class="contact-container flex-center">
+        <form class="form card">
+            <div class="form-control flex-center">
+                <label for="name">Name:<input type="text" id="name"></label> 
+
+            </div>
+            <div class="form-control flex-center">
+                <label for="email">Email:<input type="email" id="name"></label> 
+
+            </div>
+            <div class="form-control flex-center">
+                <label for="message">Message:<textarea name:"message" id="message"></textarea></label> 
+
+            </div>
+            <div class="form-control flex-center form-btn-field">
+                <button type="submit" class="btn contact-btn">Submit</button>
+
+            </div>
+            <div class="contact-adress flex-space-around">
+                <address>
+                    <h4>
+                        Address:
+                    </h4>
+                    <p>Kaundia,Moddo Para,Savar,Dhaka-1216</p>
+                </address>
+                <iframe class="contact_map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14602.702528983526!2d90.3435586996948!3d23.794562358241198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c0e96fce29dd%3A0x6ccd9e51aba9e64d!2sMirpur-1%2C%20Dhaka!5e0!3m2!1sen!2sbd!4v1724513848371!5m2!1sen!2sbd"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
+        </form>
+         
+      </div>
+
+    </section>
+</main>
+
+   <!-- footer starts here -->
+<footer class="flex-space-around">
+<div class="flex-space-around">
+    <label for="subscribe">
+        SUBSCRIBE TO NEWSLETTER:
+    </label>
+    <input type="email" id="subscribe" name="subscribe" class="footer_input" placeholder="YOUR EMAIL ADDRESS">
+    <button class="btn btn_subscribe"id="my-btn">SUBSCRIBE</button>
+</div>
+<div>
+    <h1 id="demo"></h1>
+    <p>@COPYRIGHT2024</p>
+</div>
+
+
+</footer>
+
+
+
+
+
+<!-- footer ends here -->
+<script src="index.js"></script>
+</body>
+</html>

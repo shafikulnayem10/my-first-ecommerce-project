@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= device width , initial-scale=1.0">
+    <meta name="viewport" content="width= this is  a E-Commerce Project, initial-scale=1.0"/>
+    <title>My E-Commerce Project</title>
+     <!-- fontawsomecdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+   <!-- navbar starts here -->
+   <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+   <nav id="menu" class="hidden">
+    <ul class="nav-upper flex-space-around">
+        <li class="nav_list">
+            <a href="index.html"class="nav_link">HOME</a>
+        </li>
+        <li class="nav_list">
+            <a href="register.html"class="nav_link">REGISTER</a>
+        </li>
+        <li class="nav_list">
+            <a href="login.html"class="nav_link">LOGIN</a>
+        </li>
+        <li class="nav_list">
+            <a href="index.html"class="nav_link">LOGOUT</a>
+        </li>
+        <li class="nav_list">
+            <a href="contact.html"class="nav_link">CONTACT</a>
+        </li>
+        <li class="nav_list">
+            <a href="profile.html"class="nav_link">
+                <img  class="profile-icon"  src="myfather'spic.jpg" alt="profile icon">
+            </a>
+        </li>
+</ul>
+    <ul class="nav-lower flex-space-around">
+        <li class="nav_list">
+        <a href="index.html" class="nav_link nav_brand">
+        CHUNNU BANIYATI STORE
+        </a>
+        </li>
+        <li class="nav_list">
+            <a href="card.html" class="nav_brand nav_link ">
+            <span><i class="fa-solid fa-card-shopping"></i></span>
+            Card  Products- $120.50
+            </a>
+            </li>
+    
+    </ul>
+   </nav>
+
+
+   <!-- navbar ends here -->
+ <!-- header starts here -->
+<header class="header">
+    <div class="banner flex-space-around">
+        <marquee class="banner_title">50% Sales Going On</marquee>
+    </div>
+    <!-- <div class="features flex-space-around">
+<article class="feature flex-center">
+    <i class="fa-solid fa-truck feature_icon">  
+    </i>
+<h3>Shipping Within 7 Days </h3>
+</article>
+<article class="feature flex-center">
+    <i class="fa-brands fa-rocketchat feature_icon">  
+    </i>
+<h3>Support 24/7 </h3>
+</article>
+<article class="feature flex-center">
+    <i class="fa-regular fa-credit-card feature_icon">  
+    </i>
+<h3>Safe Payment </h3>
+</article>
+
+
+
+    </div> -->
+</header>
+
+<!-- header ends here -->
+ <!-- main starts here -->
+   <main class="flex-center">
+    <div class="sidebar">
+<section class="categories-section">
+   <h3 class="section-title">Categories-Section</h3>
+   <ul class="list">
+    <!-- <li class="list_item">
+        <label for="kaligira">
+            <input type="checkbox" name="kaligira" id="kaligira" value="kaligira"/>
+            KALIGIRA
+        </label>
+    </li> -->
+    <li class="list_item">
+        <label for="radunimasala">
+            <input type="checkbox" name="radunimasala" id="radunimasala" value="radunimasala"/>
+            RADUNI MASALA
+        </label>
+    </li>
+    <li class="list_item">
+        <label for="modhu">
+            <input type="checkbox" name="modhu" id="modhu" value="modhu"/>
+            MODHU
+        </label>
+    </li>
+    <li class="list_item">
+        <label for="golapjaal">
+            <input type="checkbox" name="golapjaal" id="golapjaal" value="golapjaal"/>
+            GOLAPJAAL
+        </label>
+    </li>
+
+   </ul>
+
+</section>
+<section class="price-section">
+    <h3 class="section-title">Categories-Section</h3>
+    <ul class="list">
+     <!-- <li class="list_item">
+         <label for="kaligira">
+             <input type="checkbox" name="kaligira" id="kaligira" value="kaligira"/>
+             KALIGIRA
+         </label>
+     </li> -->
+     <li class="list_item">
+         <label for="price1">
+             <input type="radio" name="price1" id="price1" value="[0,20]"/>
+             $0-20
+         </label>
+     </li>
+     <li class="list_item">
+         <label for="price2">
+             <input type="radio" name="price2" id="price2" value="[0-50]"/>
+             $0-50
+         </label>
+     </li>
+     <li class="list_item">
+         <label for="price-3">
+             <input type="radio" name="price-3" id="price-3" value="[0-100]"/>
+             $0-100
+         </label>
+     </li>
+ 
+    </ul>
+ 
+ </section>
+ <section class="shipping-section">
+  <h3 class="section-title">
+     Shipping Options
+  </h3>
+  <ul class="list">
+    <li class="list_item">
+        <label for="free">
+            <input type="radio" name="Shipping" id="free" value="free">
+            Free
+        </label>
+    </li>
+    <li class="list_item">
+        <label for="paid">
+            <input type="radio" name="Shipping" id="paid" value="paid">
+         Paid
+        </label>
+    </li>
+
+  </ul>
+
+
+
+
+
+ </section>
+
+
+
+ </div>
+    <div class="main-content">
+ <!-- actions section starts here        -->
+  <section class=" actions flex-space-around">
+    <div class="actions_sort">
+  <label for="sort">Sort By:</label>
+  <select name="sort" id="sort">
+<option value="slod">Most Sold First</option>
+<option value="rating">Most Rating First</option>
+<option value="price">Cheapest First</option>
+</select>
+    </div>
+    <div class="actions_search">
+
+<input type="text" placeholder="Search-Product">
+<button class="btn">
+    <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+</button>
+    </div>
+</section>
+<!-- actions section ends here -->
+<!-- products section starts here -->
+<section class="products">
+<article class="product card">
+    <div class="badge">
+        <span>5 in stock</span>
+        <hr class="hr-design">
+        <span>3 sold</span>
+    </div>
+    <img src="radunipic.jpeg" alt="product1" class="product_img" >
+    <div class="product_body">
+        <h3 class="product_name">Raduni Masala</h3>
+        <p>
+            <span class="dot green"></span>
+            <span class="dot black"></span>
+            <span class="dot red"></span>
+        </p>
+        <p class="product_description" >
+             Hic distinctio aliquam voluptatum nesciunt repellendus rem quis temporibus neque. Nesciunt in impedit quasi nisi. Numquam 
+             laborum sit soluta....<a href="product.html" class="learn-more" ">learn more</a>
+        </p>
+     <h4 class="product_price">$225</h4>
+     <p class="product_rating">Rating:4.5/5</p>
+     <button class="btn product_button">Add To Cart</button> 
+    </div>
+</article>
+<article class="product card">
+    <div class="badge">
+        <span>2 in stock</span>
+        <hr class="hr-design">
+        <span>8 sold</span>
+    </div>
+    <img src="mudhupic.jpeg" alt="product2" class="product_img">
+    <div class="product_body">
+        <h3 class="product_name">Modhu</h3>
+        <p>
+            <span class="dot green"></span>
+            <span class="dot black"></span>
+            <span class="dot red"></span>
+        </p>
+        <p class="product_description" >
+             Hic distinctio aliquam voluptatum nesciunt repellendus rem quis temporibus neque. Nesciunt in impedit quasi nisi. Numquam 
+             laborum sit soluta....<a href="product.html" class="learn-more">learn more</a>
+        </p>
+     <h4 class="product_price">$289</h4>
+     <p class="product_rating">Rating:5/5</p>
+     <button class="btn product_button">Add To Cart</button> 
+    </div>
+</article>
+<article class="product card">
+    <div class="badge">
+        <span>9 in stock</span>
+        <hr class="hr-design">
+        <span>4 sold</span>
+    </div>
+    <img src="golapjaalpic.jpeg" alt="product3" class="product_img">
+    <div class="product_body">
+        <h3 class="product_name">Golap Jaal</h3>
+        <p>
+            <span class="dot green"></span>
+            <span class="dot black"></span>
+            <span class="dot red"></span>
+        </p>
+        <p class="product_description" >
+             Hic distinctio aliquam voluptatum nesciunt repellendus rem quis temporibus neque. Nesciunt in impedit quasi nisi. Numquam 
+             laborum sit soluta....<a href="product.html" class="learn-more">learn more</a>
+        </p>
+     <h4 class="product_price">$255</h4>
+     <p class="product_rating">Rating:3.5/5</p>
+     <button class="btn product_button">Add To Cart</button> 
+    </div>
+</article>
+
+
+
+</section>
+
+
+<!-- products section ends here -->
+
+    </div>
+    
+</main>
+<!-- main ends here -->
+   <!-- footer starts here -->
+<footer class="flex-space-around">
+<div class="flex-space-around">
+    <label for="subscribe">
+        SUBSCRIBE TO NEWSLETTER:
+    </label>
+    <input type="email" id="subscribe" name="subscribe" class="footer_input" placeholder="YOUR EMAIL ADDRESS">
+    <button class="btn btn_subscribe"id="my-btn">SUBSCRIBE</button>
+</div>
+<div>
+   <h1 id="demo"></h1>
+    <p>@COPYRIGHT2024</p>
+</div>
+
+
+</footer>
+
+
+
+
+
+<!-- footer ends here -->
+ 
+
+
+<script src="index.js"></script>
+</body>
+</html>
+ 
